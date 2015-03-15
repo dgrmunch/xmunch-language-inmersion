@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"> 
+<head>
+<title>xmunch.com</title>
+<link rel="stylesheet" href="style/xmunch.css">
+
+<script type="text/javascript" src="js/third-party/jquery.min.js"></script>
+<script type="text/javascript" src="js/third-party/mespeak.full.js"></script>
+<script type="text/javascript" src="js/third-party/selection.js"></script>
+<script type="text/javascript" src="js/globals.js"></script>
+<script type="text/javascript" src="js/grammar.js"></script>
+<script type="text/javascript" src="js/aux.js"></script>
+<script type="text/javascript" src="js/translation.js"></script>
+<script type="text/javascript" src="js/speak.js"></script>
+<script type="text/javascript" src="js/style.js"></script>
+<script type="text/javascript" src="js/view.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+<body>
+<div class="container">
+<div class="editor">
+	<input id="marker" type="text" value="" placeholder="Resaltar palabra"/>
+    <div id="meanings" class="button"></div>
+	<div id="sounds" class="button"></div>
+	<div id="edit" class="button"></div>
+	<div id="save" class="button"></div>
+    <input id="amplitude" placeholder="" class="small hidden"/>
+    <input id="wordgap" placeholder="" class="small hidden"/>
+    <input id="pitch" placeholder="" class="small hidden"/>
+    <input id="speed" placeholder="" class="small hidden"/>
+	<div id="stop" class="button hidden"></div>
+    <div id="code" contenteditable="false"></div>
+</div>
+<div id="log-container">
+<input id="searcher1" type="text" value="" placeholder="Traducir palabra desde tu idioma"/>
+<input id="searcher2" type="text" value="" placeholder="Traducir/Definir una palabra en el idioma que aprendes"/>
+<div id="log"></div>
+</div>
+</div>
+</body>
