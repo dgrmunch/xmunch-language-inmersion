@@ -1,0 +1,92 @@
+._0_ { color: #FF4136; }
+._1_ { color: #7FDBFF; }
+._2_ { color: #F012BE; }
+._3_ { color: #3D9970; }
+
+.hidden{
+	display: none;
+}
+
+.small{
+	width: 73px !important;
+	padding-top: 13px !important;
+}
+
+.editor {
+	padding: 20px;
+    background-color: black; 
+    color: white;
+    text-align: justify;
+	float:left;
+	width:50%;
+	height: 90% !important;
+	position:relative;
+}
+
+#code {
+	position: relative;
+	overflow-x: auto;
+	width: 475px;
+	height: 60%;
+	padding: 20px;
+	background-color: black;
+	border: 1px solid yellow;
+	float:left;
+}
+
+
+#log-container {
+	float: right;
+	height: 90% !important;
+	width: 40%;
+	border-left: 1px dashed #FF0;
+	color: #D0E799;
+	padding: 20px;
+	position:relative;
+	overflow-x: auto;
+}
+
+a {
+	color: #D0E799; cursor: pointer;
+}
+
+a:hover {
+	color:white; cursor: pointer;
+}
+
+.button {
+	border: 2px dotted #D0E799;
+	width: 98px;
+    padding:10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center; 
+	cursor: pointer;
+	float:left;
+}
+	
+.container{
+
+	border: 1px dotted #D8C358;
+	background-color: #000;
+	position: absolute;
+	margin: 0 auto;
+	width: 1100px;
+	height: 90%;
+}
+
+input{
+	background-color: #25271E;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #D0E799;
+	border: 1px dashed #D0E799;
+	width: 90%;
+}
+
+body{
+	background-color: #25271E;
+	font-size: 12px;
+	font-family: Arial;
+}
+
